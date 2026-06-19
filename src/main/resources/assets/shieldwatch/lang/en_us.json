@@ -1,0 +1,8 @@
+{
+  "shieldwatch.config.title": "ShieldWatch Config",
+  "shieldwatch.config.enabled": "Show Durability Overlay",
+  "shieldwatch.config.show_percent": "Show as Percentage",
+  "shieldwatch.config.warn_threshold": "Low Durability Warning (%)",
+  "shieldwatch.config.pulse": "Pulse When Critical",
+  "shieldwatch.config.done": "Done"
+}

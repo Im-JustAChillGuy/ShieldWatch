@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "shieldwatch",
+	"version": "${version}",
+	"name": "ShieldWatch",
+	"description": "Overlays a live durability countdown on your hotbar shield icon, with a Mod Menu config screen.",
+	"authors": ["You"],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.shieldwatch.ShieldWatchClient"
+		],
+		"modmenu": [
+			"com.example.shieldwatch.ShieldWatchModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"fabric-api": "*",
+		"minecraft": "26.1.x",
+		"modmenu": "*"
+	}
+}
